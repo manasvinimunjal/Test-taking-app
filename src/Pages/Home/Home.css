@@ -1,0 +1,34 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.settings{
+    width: 45%;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+
+
+
+.settings_select {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 0.8;
+    justify-content: space-evenly;
+    margin-top:2em;
+}
+.settings_select > :not(:last-child){
+    background: cadetblue;
+    border-radius:6px;
+
+}
+.settings_select .menu-item {
+    background-color: blue;
+}

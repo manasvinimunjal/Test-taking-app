@@ -1,0 +1,20 @@
+.quiz {
+    display: flex;
+    flex-direction: column;
+    font-family :Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 1.25em;
+   
+    padding: 5px 10px;
+}
+
+.quizInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin: 10px;
+}
